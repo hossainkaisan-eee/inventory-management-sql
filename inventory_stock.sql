@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS suppliers;
 
 CREATE TABLE suppliers (
-    supplier_id INTERGER PRIMARY KEY,
+    supplier_id INTEGER PRIMARY KEY,
     supplier_name TEXT NOT NULL,
     city          TEXT
   );
